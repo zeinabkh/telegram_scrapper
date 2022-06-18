@@ -45,12 +45,13 @@ async def main():
     print(username)
     print(me.phone)
     group_list = [
-    # {'name': "Vira_Bourse_Group",
-    #        'date': datetime.datetime.now()},
-    #                {'name': "bours_rezaeii",
-    #                 'date': datetime.datetime.now()},
-                   {'name': "tse_mag",
-                    'date': datetime.datetime.now()}]
+    {'name': "https://t.me/Vira_Bourse_Group",
+           'date': datetime.datetime.now()},
+    # #                {'name': "bours_rezaeii",
+    # #                 'date': datetime.datetime.now()},
+    #                {'name': "tse_mag",
+    #                 'date': datetime.datetime.now()}
+                        ]
     for group in group_list:
         message_texts = []
         message_ids = []
